@@ -3,7 +3,7 @@ Switch config/openvpn/FlashbackVPN.ovpn with your ovpn file and change the line
 ```
 auth-user-pass
 ```
-to
+in the ovpn-file to
 ```
 auth-user-pass pass
 ```
