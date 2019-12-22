@@ -8,5 +8,5 @@ docker run -d \
     -v /home/henrik/Media/data:/data \
     -e PUID=1000 \
     -e PGID=1000 \
+   -v /config/delugeconfigfiles:/config/
     deluge
-#   -v /config/delugeconfigfiles:/config/
