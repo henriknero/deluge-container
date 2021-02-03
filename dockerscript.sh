@@ -12,5 +12,6 @@ docker run -d \
     -v /home/nero/Media/data:/data \
     -e PUID=1000 \
     -e PGID=1000 \
+    --restart on-failure \
     -v /home/nero/deluge-container/config:/config/ \
     deluge-image
